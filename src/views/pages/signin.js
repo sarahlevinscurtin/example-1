@@ -36,7 +36,7 @@ class SignInView {
             <div class="input-group">
               <sl-input name="password" type="password" placeholder="Password" required toggle-password></sl-input>
             </div>
-            <sl-button class="submit-btn" type="primary" submit style="width: 100%;">Sign In</sl-button>
+            <sl-button class="submit-btn" type="primary" submit style="width: 100%;">Sign On In</sl-button>
           </sl-form>
           <p>Don't have an account? <a href="/signup" @click=${anchorRoute}>Sign On Up You Person</a></p>
         </div>
